@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
+
+    <!--
+         Used in Action Bar, and in AndroidManifest to tell the device the name of this app.
+         It's to keep this short, so your launcher icon isn't displayed with "The greatest Wea"
+         or something similar.
+    -->
+    <string name="app_name">Course Catalog</string>
+
+    <!--
+         By convention, "action" denotes that this String will be used as the label for an Action,
+         typically from the action bar.  The ActionBar is limited real estate, so shorter is better.
+    -->
+    <string name="action_settings">Settings</string>
+    <string name="action_share">Share</string>
+
+    <!-- Menu label to fetch updated weather info from the server -->
+    <string name="action_refresh" translatable="false">Refresh</string>
+    <string name="title_activity_detail">Details</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Label for the location preference [CHAR LIMIT=30] -->
+    <string name="pref_location_label">Location</string>
+
+    <!-- Key name for storing location in SharedPreferences [CHAR LIMIT=NONE] -->
+    <string name="pref_location_key" translatable="false">course</string>
+
+    <!-- Default course code preference [CHAR LIMIT=NONE] -->
+    <string name="pref_location_default" translatable="false"></string>
+
+    <!-- Strings related to Notification Enabled preference -->
+    <string name="pref_enable_notifications_key" translatable="false">enable_notifications</string>
+    <string name="pref_enable_notifications_label">Notifications</string>
+
+    <string name="pref_enable_notifications_true">Enabled</string>
+    <string name="pref_enable_notifications_false">Not Enabled</string>
+    <string name="pref_enable_notifications_default" translatable="false">true</string>
+
+
+
+
+
+    <!-- Strings related to Notification preference -->
+    <string name="pref_last_notification">last_notification</string>
+
+
+
+
+    <!-- Label for the my courses preference [CHAR LIMIT=30] -->
+    <string name="pref_my_courses_label">My Courses</string>
+    <!-- Key name for my courses preference [CHAR LIMIT=NONE] -->
+    <string name="pref_my_courses_key" translatable="false">my_courses</string>
+    <!-- Default Value my_courses option [CHAR LIMIT=30] -->
+    <string name="pref_my_courses_default" translatable="false"></string>
+
+
+    <!-- Label for the reload preference [CHAR LIMIT=30] -->
+    <string name="pref_sync_frequency_label">Update Frequency - Days</string>
+
+    <!-- Key name for storing location in SharedPreferences [CHAR LIMIT=NONE] -->
+    <string name="pref_sync_frequency_key" translatable="false">sync_frequency</string>
+
+    <!--Default postal code for location preference [CHAR LIMIT=10] -->
+    <string name="pref_sync_frequency_default" translatable="false">1</string>
+
+
+
+    <!-- DATABASE NAME and VERSION -->
+    <string name="course_catalog_db_name">course_catalog_dev.db</string>
+    <string name="course_catalog_db_version">6</string>
+
+    <!-- SyncAdapter related -->
+    <string name="sync_account_type">student.project.udacity.com</string>
+
+    <!-- see ApplicationContentProvider.
+    public static final String CONTENT_AUTHORITY = MainActivity.class.getPackage().getName() -->;
+    <string name="content_authority">com.udacity.android.student.project.app</string>
+
+
+</resources>

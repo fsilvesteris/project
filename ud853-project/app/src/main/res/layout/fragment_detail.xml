@@ -1,0 +1,45 @@
+<!-- Master layout. -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:layout_gravity="left"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:fontFamily="sans-serif-condensed"
+            android:id="@+id/item_code_and_title"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            tools:text="ud853 Developing Android Apps"/>
+
+        <TextView
+            android:fontFamily="sans-serif-condensed"
+            android:id="@+id/item_subtitle"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textColor="@color/grey_700"
+            android:textSize="16sp"
+            tools:text="Android Fundamentals"/>
+
+
+        <TextView
+            android:fontFamily="sans-serif-condensed"
+            android:id="@+id/item_short_summary_text"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_width="wrap_content"
+            android:textColor="@color/grey_700"
+            android:textSize="20sp"
+            tools:text="Android Fundamentals blends theory and practice to help you build great apps the right way"/>
+
+    </LinearLayout>
+</ScrollView>
